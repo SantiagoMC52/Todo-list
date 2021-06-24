@@ -1,0 +1,61 @@
+* {
+  font-family: 'New Tegomin', serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.main-container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  min-width: auto;
+  min-height: 200px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.input-itSelf {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+.addBtn, .doneBtn, .deleteBtn {
+  margin-left: 2px;
+  min-width: 60px;
+  height: 37px;
+  font-size: 20px;
+}
+
+.doneBtn{
+  margin-left: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.task-item {
+  margin-right: 20px;
+}
+
+.task-item--done {
+  text-decoration: line-through;
+}
